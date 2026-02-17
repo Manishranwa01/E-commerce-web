@@ -1,15 +1,21 @@
 
 import './App.css'
-import Header from './compantes/header/Header'
+import Mulitivendor from './pages/products/Mulit-vendor/Mulitvendor';
+
+
 
 function App() {
 
   return (
     <>
-      <h1>App Component</h1>
-      <Header />
+   {/* <Header/>
+   <Footer/>
+   <Silder/> */}
+      <Mulitivendor/>
+    
+
     </>
   )
 }
 
-export default App
+export default App;
