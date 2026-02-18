@@ -8,12 +8,9 @@ function App() {
 
   return (
     <>
-   {/* <Header/>
-   <Footer/>
-   <Silder/> */}
+  
       <Mulitivendor/>
-    
-
+      <Header/>
     </>
   )
 }
