@@ -81,130 +81,271 @@
     margin-top: 5vh;
 }
 
-.silderBox{
+.silderBox {
     height: 50vh;
     width: 210vh;
     background-color: rgb(255, 255, 255);
 }
-.silderBox img{
+
+.silderBox img {
     height: 50vh;
     width: 210vh;
 }
 
-.textOne{
+.textOne {
     height: 15vh;
     width: 210vh;
     background-color: rgb(159, 157, 161);
 }
-#Success{
+
+#Success {
     font-size: 6vh;
     color: rgb(38, 36, 34);
-     margin-left: 4vh;
+    margin-left: 4vh;
 }
-.textOne{
+
+.textOne {
     padding-top: 6vh;
 }
-#veiw{
+
+#veiw {
     position: absolute;
     margin-left: 165vh;
     color: blue;
     margin-top: -4vh;
 }
-#line{
+
+#line {
     font-size: 4vh;
-     margin-left: 196vh;
+    margin-left: 196vh;
     position: absolute;
     margin-top: -5vh;
     color: blue;
 }
-.BoxSilderMan{
+
+.BoxSilderMan {
     height: 100vh;
     width: 210vh;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#BoxOne{
+
+#BoxOne {
     height: 90vh;
     width: 70vh;
     background-color: aliceblue;
     margin: 2vh;
     border-radius: 1vh;
 }
-#packaging{
+
+#packaging {
     margin: 5vh;
 }
-#united{
+
+#united {
     height: 5vh;
     width: 8vh;
     background-color: rebeccapurple;
     margin-left: 5vh;
     border-radius: 1vh;
     margin-top: -3vh;
-  
+
 }
-#united img{
+
+#united img {
     height: 5vh;
     width: 8vh;
     border-radius: 1vh;
 }
-#kingdom{
+
+#kingdom {
     position: absolute;
     margin-left: 15vh;
     margin-top: -4vh;
     font-size: 3vh;
 }
-#BoxIamge{
+
+#BoxIamge {
     height: 35vh;
     width: 60vh;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     margin-top: 5vh;
-    margin-left: 5vh;
+    margin-left: 3vh;
     border-radius: 4vh;
 }
-#UK{
+
+#UK {
     position: absolute;
     margin-top: 8vh;
     margin-left: 5vh;
     font-size: 4.7vh;
     color: white;
 }
-#Cus{
+
+#Cus {
     font-size: 3.7vh;
     margin-top: 2vh;
     margin-left: 2vh;
 }
-#listed{
+
+#listed {
     position: absolute;
     margin-left: 12vh;
     font-size: 3.5vh;
     margin-top: -4.5vh;
 }
-#Per{
+
+#Per {
     font-size: 4vh;
-   display: block;
-   margin-top: 3vh;
+    display: block;
+    margin-top: 3vh;
     color: rgb(0, 0, 0);
-    
+
 }
-#System{
+
+#System {
     position: absolute;
     margin-left: 26vh;
     margin-top: -4vh;
 }
-.SecondImageBox{
-      height: 100vh;
+
+.SecondImageBox {
+    height: 100vh;
     width: 210vh;
-    background-color: rgb(0, 255, 8);
+    background-color: rgb(255, 255, 255);
     padding: 4vh;
     box-sizing: border-box;
 }
-#BoxThree{
-   height: 90vh;
+
+#BoxThree {
+    height: 90vh;
     width: 70vh;
     background-color: aliceblue;
     /* margin: 2vh; */
     border-radius: 1vh;
-   margin-left:28vh;
+    margin-left: 28vh;
+}
+
+/* .silderMan{
+    height: 80vh;
+    width: 210vh;
+    background-color: rebeccapurple;
+}
+#silderOne{
+    height: 80vh;
+    width: 210vh;
+    background-color: brown;
+
+}
+#silderTwo{
+    height: 80vh;
+    width: 210vh;
+    background-color: rgb(47, 117, 47);
+    
+}
+.SilderContainer{
+      display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.silde{
+    width: 210vh;
+    overflow: hidden;
+}
+.Man{
+      display: flex;
+  transition: 0.5s;
+}
+.BoxOne{
+     width: 210vh;
+  height: 120px;
+  margin-right: 20px;
+  background: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 20px;
+} */
+.Platefrom {
+    height: 50vh;
+    width: 210vh;
+    background-color: rgb(26, 86, 86);
+
+}
+
+#B2B {
+    background: linear-gradient(to right, rgb(73, 183, 211), blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-left: 70VH;
+    color: transparent;
+    font-size: 6vh;
+}
+
+#your {
+    margin-left: 60vh;
+    font-size: 6vh;
+}
+
+#Source {
+    margin-left: 40vh;
+    font-size: 4vh;
+}
+
+.QuestionBox {
+    height: 100vh;
+    width: 210vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QuestionOne {
+    height: 83vh;
+    width: 95vh;
+    background-color: whitesmoke;
+    margin: 4vh;
+    border-radius: 1vh;
+    padding-top: 3vh;
+    box-sizing: border-box;
+}
+#tion{
+     background: linear-gradient(to right, rgb(73, 183, 211), blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-left: 10VH;
+    color: transparent;
+   
+    font-size: 6vh;
+}
+#management{
+    font-size: 5vh;
+    position: absolute;
+    margin-left: 39vh;
+    margin-top: -5.6vh;
+}
+#and{
+    font-size: 3.2vh;
+   margin-left: 10vh;
+   margin-top: 3vh;
+}
+.PurchaseBox{
+    height: 60vh;
+    width: 95vh;
+    background-color: rgb(225, 250, 215);
+    margin-top: 6vh;
+}
+.PurchaseBox img{
+    height: 60vh;
+    width: 95vh;
+}
+#manage{
+     font-size: 5vh;
+    position: absolute;
+    margin-left: 54vh;
+    margin-top: -5.6vh;
 }

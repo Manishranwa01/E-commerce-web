@@ -10,6 +10,7 @@ import Four from "./../MulitVendoeImage/Four.jpg"
 import Five from "./../MulitVendoeImage/Five.jpg"
 import Six from "./../MulitVendoeImage/Six.jpg"
 import Seveen from "./../MulitVendoeImage/Seveen.jpg"
+import Eight from "./../MulitVendoeImage/purchase.jpg"
 
 function Mulitivendor() {
 
@@ -19,6 +20,25 @@ function Mulitivendor() {
         setShowBox(!showBox);
     }
 
+    //  let index=0;
+    //  const Man=document.querySelectorAll(".Man")
+    //  const Boxes = document.querySelectorAll(".Box")
+    //  const nextBtn=document.getElementById("next")
+    //  const prevBtn =document.getElementById("prev")
+
+
+    //  nextBtn.onclick=function(){
+    //     if(index<Boxes.length-2){
+    //         index++;
+    //         Man.style.transfrom=`translateX(-${index*220}px)`;
+
+    //     }
+    //  };
+    //  prevBtn.onclick=function(){
+    //     if(index>0){
+    //         index.style.transfrom`translateX(-${index*220}px)`
+    //     }
+    //  }
     return (
         <>
             <div className="multivendor-main">
@@ -85,18 +105,62 @@ function Mulitivendor() {
 
             <div className="SecondImageBox">
                 <div id="BoxThree">
-                     <h2 id="packaging">Onyx</h2>
+                    <h2 id="packaging">Onyx</h2>
                     <div id="united"><img src={Six} alt="" /></div>
                     <b id="kingdom">United State</b>
                     <div id="BoxIamge">
                         <h2 id="UK">U.S Based B2B <br /> Distributor Launches<br />  Online Mosaic</h2>
                         <img src={Seveen} alt="" />
-                         <b id="Per"> 1200 +</b>
+                        <b id="Per"> 1200 +</b>
                         <p id="listed">SKU Managed</p>
-                         <b id="Per"> 900 +</b>
+                        <b id="Per"> 900 +</b>
                         <p id="listed">Monthly Visitors</p>
                     </div>
                 </div>
+            </div>
+
+            {/* <div className="SilderContainer">
+                <button id="prev">prev</button>
+                <div className="silde">
+                    <div className="Man">
+                    <div className="BoxOne"></div>
+                    <div className="BoxOne"></div> 
+                    </div>
+                </div>
+                <button id="next"></button>
+            </div> */}
+
+
+            <div className="Platefrom">
+                <b id="B2B">B2B eCommerce Platform</b>
+                <h1 id="your">Features to Grow Your Business</h1>
+                <p id="Source">Bagisto Open Source B2B eCommerce Platform has
+                    simple features to make your<br /> business easier.
+                    You can set custom prices, manage large orders,
+                    give tiered discounts, <br /> handle company accounts,
+                    and track quotes clearly to keep everything organized.
+
+                </p>
+            </div>
+
+            <div className="QuestionBox">
+                <div className="QuestionOne">
+
+                    <b id="tion">Quotation </b>
+                    <h2 id="management"> Management</h2>
+                    <p id="and">Create and manage quotes quickly. Approve them faster<br />
+                        and keep prices correct and simple for all buyers.</p>
+                    <div className="PurchaseBox"><img src={Eight} alt="" /></div>
+
+                </div>
+                <div className="QuestionOne">
+                    <b id="tion">Purchase Order</b>
+                    <h2 id="manage"> Management</h2>
+                    <p id="and">Create and manage quotes quickly. Approve them faster<br />
+                        and keep prices correct and simple for all buyers.</p>
+                    <div className="PurchaseBox"><img src={Eight} alt="" /></div>
+                </div>
+
             </div>
         </>
     );
