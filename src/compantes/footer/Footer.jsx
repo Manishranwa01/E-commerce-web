@@ -1,89 +1,97 @@
-import "./Footer.css"
+import "./Footer.css";
+import { TiSocialFacebook } from "react-icons/ti";
+import { TiSocialInstagram } from "react-icons/ti";
+import { TiSocialTwitter } from "react-icons/ti";
+import { TiSocialYoutube } from "react-icons/ti";
+import { CiLinkedin } from "react-icons/ci";
 
-function Footer () {
-    return(
-        <>
-       
-         <footer class="footer-container">
-  <div class="footer-top">
-    <div class="footer-logo-section">
-      <h2 class="footer-logo">Webkul</h2>
-      <p class="footer-tagline">An open source initiative by Webkul</p>
-    </div>
 
-    <div class="footer-social">
-      <a href="#" class="footer-social-icon">F</a>
-      <a href="#" class="footer-social-icon">X</a>
-      <a href="#" class="footer-social-icon">in</a>
-      <a href="#" class="footer-social-icon">I</a>
-      <a href="#" class="footer-social-icon">Y</a>
-    </div>
-  </div>
+const Footer = () => {
+  return (
+    <footer className="footer-wrapper">
+      {/* Top Section */}
+      <div className="footer-top">
+        <div className="footer-brand">
+          <img
+            src="https://bagisto.com/wp-content/themes/bagisto/images/webp/webkul-logo.webp"
+            alt="Webkul"
+            className="footer-logo"
+          />
+          <p className="footer-tagline">
+            An open source <br />
+            initiative by <a href="#">Webkul</a>
+          </p>
+        </div>
 
-  <hr class="footer-divider">
+        <div className="footer-social">
+          <a href="#"><TiSocialFacebook /></a>
+          <a href="#"><TiSocialTwitter /></a>
+          <a href="#"><TiSocialInstagram /></a>
+          <a href="#"><CiLinkedin /></a>
+          <a href="#"><TiSocialYoutube /></a>
+        </div>
+      </div>
 
-  <div class="footer-links">
+      <hr className="footer-divider" />
 
-    <div class="footer-column">
-      <h3 class="footer-heading">Company</h3>
-      <ul class="footer-list">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Bagisto Features</a></li>
-        <li><a href="#">Partners</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">CSR</a></li>
-      </ul>
-    </div>
+      {/* Links Section */}
+      <div className="footer-links">
+        <div className="footer-column">
+          <h4 className="footer-title">Company</h4>
+          <ul>
+            <li>About Us</li>
+            <li>Bagisto Features</li>
+            <li>Partners</li>
+            <li>Events</li>
+            <li>CSR</li>
+          </ul>
+        </div>
 
-    <div class="footer-column">
-      <h3 class="footer-heading">Quick Links</h3>
-      <ul class="footer-list">
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Download</a></li>
-        <li><a href="#">Documentation</a></li>
-        <li><a href="#">User Documentation</a></li>
-        <li><a href="#">Releases</a></li>
-      </ul>
-    </div>
+        <div className="footer-column">
+          <h4 className="footer-title">Quick Links</h4>
+          <ul>
+            <li>Blog</li>
+            <li>Download</li>
+            <li>Documentation</li>
+            <li>User Documentation</li>
+            <li>Releases</li>
+          </ul>
+        </div>
 
-    <div class="footer-column">
-      <h3 class="footer-heading">Extensions</h3>
-      <ul class="footer-list">
-        <li><a href="#">Marketplace</a></li>
-        <li><a href="#">Headless eCommerce</a></li>
-        <li><a href="#">Progressive Web App</a></li>
-        <li><a href="#">B2B</a></li>
-      </ul>
-    </div>
+        <div className="footer-column">
+          <h4 className="footer-title">Extensions</h4>
+          <ul>
+            <li>Marketplace</li>
+            <li>Headless eCommerce</li>
+            <li>Progressive Web App</li>
+            <li>B2B</li>
+          </ul>
+        </div>
 
-    <div class="footer-column">
-      <h3 class="footer-heading">eCommerce Stores</h3>
-      <ul class="footer-list">
-        <li><a href="#">Fashion Commerce</a></li>
-        <li><a href="#">Quick Commerce</a></li>
-        <li><a href="#">Vape Commerce</a></li>
-        <li><a href="#">Jewellery Platform</a></li>
-        <li><a href="#">View All Industries</a></li>
-      </ul>
-    </div>
+        <div className="footer-column">
+          <h4 className="footer-title">eCommerce Stores</h4>
+          <ul>
+            <li>Fashion Commerce</li>
+            <li>Quick Commerce</li>
+            <li>Vape Commerce</li>
+            <li>Jewellery Platform</li>
+            <li>View All Industries</li>
+          </ul>
+        </div>
 
-    <div class="footer-column">
-      <h3 class="footer-heading">Services</h3>
-      <ul class="footer-list">
-        <li><a href="#">Bagisto Services</a></li>
-        <li><a href="#">Laravel Development</a></li>
-        <li><a href="#">Virtual Try-On</a></li>
-        <li><a href="#">Conversational Commerce</a></li>
-        <li><a href="#">Vape Development</a></li>
-      </ul>
-    </div>
-
-  </div>
-  </hr>
-</footer>
-
-        </>
-    )
-}
+        <div className="footer-column">
+          <h4 className="footer-title">Services</h4>
+          <ul>
+            <li>Bagisto Services</li>
+            <li>Laravel Development</li>
+            <li>Virtual Try-On</li>
+            <li>Conversational Commerce</li>
+            <li>Vape Commerce Dev</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;
