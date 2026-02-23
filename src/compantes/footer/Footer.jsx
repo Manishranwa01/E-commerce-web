@@ -44,6 +44,13 @@ const Footer = () => {
             <li>Partners</li>
             <li>Events</li>
             <li>CSR</li>
+            <li>Press</li>
+            <li>Case Studies</li>
+            <li>Customer Showcase</li>
+            <li>Testimonials</li>
+            <li>Podcast</li>
+            <li>Brand Kit</li>
+            <li>Contact Us</li>
           </ul>
         </div>
 
@@ -55,6 +62,15 @@ const Footer = () => {
             <li>Documentation</li>
             <li>User Documentation</li>
             <li>Releases</li>
+            <li>Benchmarking Report</li>
+            <li>Security Report</li>
+            <li>Support Forum</li>
+            <li>Roadmap</li>
+            <li>FB Community</li>
+            <li>SaaSHub Status</li>
+            <li>Open Source CRM</li>
+            <li>Open Source PIM</li>
+            <li>Open Source ERP</li>
           </ul>
         </div>
 
@@ -65,6 +81,13 @@ const Footer = () => {
             <li>Headless eCommerce</li>
             <li>Progressive Web App</li>
             <li>B2B</li>
+            <li>Point of Sale</li>
+            <li>Payments</li>
+            <li>Shipping</li>
+            <li>Live Stream Commerce</li>
+            <li>Open Source Mobile App</li>
+            <li>Multi Tenant SaaS</li>
+            <li>View All Extensions</li>
           </ul>
         </div>
 
@@ -87,6 +110,16 @@ const Footer = () => {
             <li>Virtual Try-On</li>
             <li>Conversational Commerce</li>
             <li>Vape Commerce Dev</li>
+            <li>Bookstore Website Development</li>
+            <li>Migration Services</li>
+            <li>Jewellery Website Development</li>
+            <li>Speed Optimization Services</li>
+            <li>Integration Services</li>
+            <li>Theme Development Services</li>
+            <li>Support and Maintenance Services</li>
+            <li>Consulting Services</li>
+            <li>Custom Extension Development Services</li>
+            <li>Mobile App Development Services</li>
           </ul>
         </div>
       </div>
