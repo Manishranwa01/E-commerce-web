@@ -272,7 +272,7 @@
 .Platefrom {
     height: 50vh;
     width: 210vh;
-    background-color: rgb(26, 86, 86);
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -298,7 +298,7 @@
 .QuestionBox {
     height: 100vh;
     width: 210vh;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -313,39 +313,422 @@
     padding-top: 3vh;
     box-sizing: border-box;
 }
-#tion{
-     background: linear-gradient(to right, rgb(73, 183, 211), blue);
+
+#tion {
+    background: linear-gradient(to right, rgb(73, 183, 211), blue);
     background-clip: text;
     -webkit-background-clip: text;
     margin-left: 10VH;
     color: transparent;
-   
+
     font-size: 6vh;
 }
-#management{
+
+#management {
     font-size: 5vh;
     position: absolute;
     margin-left: 39vh;
     margin-top: -5.6vh;
 }
-#and{
+
+#and {
     font-size: 3.2vh;
-   margin-left: 10vh;
-   margin-top: 3vh;
+    margin-left: 10vh;
+    margin-top: 3vh;
 }
-.PurchaseBox{
+
+.PurchaseBox {
     height: 60vh;
     width: 95vh;
     background-color: rgb(225, 250, 215);
     margin-top: 6vh;
 }
-.PurchaseBox img{
+
+.PurchaseBox img {
     height: 60vh;
     width: 95vh;
 }
-#manage{
-     font-size: 5vh;
+
+#manage {
+    font-size: 5vh;
     position: absolute;
     margin-left: 54vh;
     margin-top: -5.6vh;
+}
+
+.CompanyBox {
+    height: 30vh;
+    width: 210vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#commerce {
+    font-size: 7vh;
+    color: black;
+    margin-left: 50vh;
+}
+
+#Admin {
+    font-size: 7vh;
+    margin-left: 80vh;
+    background: linear-gradient(to right, rgb(73, 183, 211), blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* margin-left: 70VH; */
+    color: transparent;
+}
+
+#Orders {
+    font-size: 4vh;
+    margin-left: 50vh;
+    color: rgb(114, 109, 109);
+}
+
+#Dash {
+    font-size: 4vh;
+    margin-left: 80vh;
+    color: rgb(114, 109, 109);
+}
+
+.ImageMarketPlace {
+    height: 90vh;
+    width: 210vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.ImageMarketPlace img {
+    height: 90vh;
+    width: 210vh;
+}
+
+.InventoryMan {
+    height: 30vh;
+    width: 210vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-top: 3vh;
+
+}
+
+#InventorOne {
+    height: 30vh;
+    width: 60vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5vh;
+
+}
+
+#HomeIcon {
+    font-size: 6vh;
+    color: black;
+}
+
+#TextInventory {
+    font-size: 3.5vh;
+    /* margin-top: vh; */
+    display: block;
+}
+
+#ThemSelves {
+    font-size: 3.3vh;
+    margin-top: 2vh;
+}
+
+.Assignment {
+    height: 40vh;
+    width: 210vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-top: 5vh;
+
+}
+
+#AssignmentOne {
+    height: 30vh;
+    width: 60vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5vh;
+}
+
+.Bagisto {
+    height: 120vh;
+    width: 210vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+#BagistoOne {
+    height: 105vh;
+    width: 100vh;
+    background-color: whitesmoke;
+    margin: 2vh;
+    border-radius: 1vh;
+}
+
+#Seller {
+    font-size: 6.5vh;
+    margin-left: 13vh;
+    margin-top: 7vh;
+}
+
+#Ons {
+    font-size: 5.5vh;
+    background: linear-gradient(to right, rgb(73, 183, 211), blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-left: 13VH;
+    color: transparent;
+    margin-top: 1vh;
+    display: block;
+}
+
+#Easily {
+    margin-left: 13vh;
+    font-size: 3.4vh;
+    margin-top: 2vh;
+}
+
+#All {
+    /* font-size: 13vh; */
+    margin-left: 13vh;
+    margin-top: 3vh;
+    display: block;
+    color: blue;
+}
+
+#james {
+    font-size: 4vh;
+    position: absolute;
+    margin-left: 57vh;
+    color: blue;
+    margin-top: -3.4vh;
+
+}
+
+#Shipping {
+    height: 60vh;
+    width: 100vh;
+    background-color: antiquewhite;
+    margin-top: 2vh;
+}
+
+#Shipping img {
+    height: 60vh;
+    width: 100vh;
+}
+
+.Platform {
+    height: 50vh;
+    width: 210vh;
+    background-color: rgb(255, 255, 255);
+    padding-top: 15vh;
+}
+
+#Place {
+    margin-left: 60vh;
+    font-size: 7vh;
+}
+
+#fea {
+    font-size: 5vh;
+    margin-left: 90vh;
+    font-size: 7vh;
+    background: linear-gradient(to right, rgb(73, 183, 211), blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#huge {
+    margin-left: 60vh;
+    font-size: 3.5vh;
+    margin-top: 2vh;
+    color: rgb(86, 85, 85);
+}
+
+.Deliver {
+    height: 120vh;
+    width: 210vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#DeliverOne {
+    height: 100vh;
+    width: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin: 2vh;
+    border-radius: 2vh;
+}
+
+#DeliverOne img {
+    height: 100vh;
+    width: 100vh;
+
+}
+
+#Tomer {
+    font-size: 6vh;
+
+    background: linear-gradient(to right, rgb(73, 183, 211), blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 10vh;
+    margin-top: 2vh;
+    display: block;
+}
+
+#Ience {
+    font-size: 6vh;
+    margin-left: 37vh;
+    margin-top: -6.3vh;
+    display: block;
+}
+
+#Choice {
+    font-size: 3.4vh;
+    margin-left: 10vh;
+    margin-top: 1vh;
+}
+
+#key {
+    font-size: 5vh;
+    margin-left: 10vh;
+    margin-top: 2vh;
+}
+
+#In {
+    margin-left: 10vh;
+    font-size: 3.4vh;
+    /* margin-top: 2vh; */
+    display: block;
+}
+
+#Many {
+    font-size: 3vh;
+    margin-left: 10vh;
+    margin-top: 1vh;
+}
+
+#khus {
+    font-size: 5vh;
+    margin-left: 10vh;
+    margin-top: 2vh;
+}
+
+.Million {
+    height: 100vh;
+    width: 210vh;
+    background-color: rgb(22, 19, 55);
+    display: flex;
+
+}
+
+#MillionOne {
+    height: 100vh;
+    width: 50vh;
+    background-color: rgb(17, 14, 43);
+    /* margin: 2vh; */
+}
+
+#MillionOne img {
+    height: 100vh;
+    width: 50vh;
+}
+
+#MillionTwo {
+    height: 100vh;
+    width: 110vh;
+    background-color: rgb(17, 14, 43);
+    /* margin: 2vh; */
+}
+
+#MillionThree {
+    height: 100vh;
+    width: 50vh;
+    background-color: rgb(17, 14, 43);
+    /* margin: 2vh; */
+}
+
+#Bulid {
+    font-size: 8vh;
+    color: white;
+    margin-left: 35vh;
+    margin-top: 2vh;
+    display: block;
+}
+
+#AddMillion {
+    font-size: 22vh;
+    /* margin-left: vh; */
+    background: linear-gradient(to right, rgb(73, 183, 211), blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+}
+
+#Cata {
+    margin-left: 15vh;
+    font-size: 12vh;
+    color: white;
+    margin-top: 25vh;
+    position: absolute;
+}
+
+#IconBox {
+    height: 30vh;
+    width: 150vh;
+    background-color: rgb(17, 14, 43);
+    margin-top: 40vh;
+    position: absolute;
+    margin-left: -10vh;
+}
+
+#IconBox img {
+    height: 30vh;
+    width: 150vh;
+}
+
+.QuestionMain {
+    height: 140vh;
+    width: 210vh;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20vh;
+}
+
+#QuestionOne {
+    height: 10vh;
+    width: 130vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2vh 2vh 2vh 2vh;
+    margin-left: 50vh;
+    margin-top: 2vh;
+    padding-top: 3vh;
+    box-sizing: border-box;
+}
+
+#QuestionHideBox {
+    height: 20vh;
+    width: 130vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 50vh;
+    border-radius: 2vh 2vh 2vh 2vh;
+}
+#Benefit{
+    margin-left: 5vh;
+    
+}
+#Lets{
+    margin-left: 5vh;
+    font-size: 3.2vh;
+}
+#plues{
+    font-size: 4.8vh;
+    position: absolute;
+    margin-left: 123vh;
+    margin-top: -3.5vh;
 }
