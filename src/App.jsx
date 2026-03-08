@@ -1,17 +1,12 @@
 
 import './App.css'
-import Mulitivendor from './pages/products/Mulit-vendor/Mulitvendor';
-
-
+import Footer from './compantes/footer/Footer';
+import Header from './compantes/header/Header'
 
 function App() {
 
   return (
-    <>
-  
-      <Mulitivendor/>
-      {/* <Header/> */}
-    </>
+    
   )
 }
 
