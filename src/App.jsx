@@ -1,13 +1,19 @@
 
 import './App.css'
+import Footer from './compantes/footer/Footer';
 import Header from './compantes/header/Header'
+import Mulitivendor from './pages/products/Mulit-vendor/Mulitvendor'
+
 
 function App() {
 
   return (
     <>
-      <h1>App Component</h1>
-      <Header />
+  
+      <Mulitivendor/>
+      {/* <Header/> */}
+     
+      <Footer/>
 
 
 
@@ -15,4 +21,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
